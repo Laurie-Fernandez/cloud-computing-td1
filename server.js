@@ -26,4 +26,5 @@ db.query("drop table if exists hello; create table hello(id int primary key, cou
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
+    console.log(db_url);
 })
